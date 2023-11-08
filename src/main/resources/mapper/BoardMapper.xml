@@ -14,7 +14,7 @@
     </select>
 
     <select id="selBoardById">
-        SELECT iboard, title, ctnts, writer, created_at AS createdAt
+        SELECT iboard, title, ctnts, writer, created_at AS createdAt  <!-- 알리아스AS -->
         FROM board
         WHERE iboard = #{iboard}                <!-- -->
     </select>
