@@ -1,9 +1,7 @@
-package com.green.springfirst;
+package com.green.springfirst2;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
-import lombok.Setter;
 
 @Getter
 @AllArgsConstructor

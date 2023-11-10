@@ -1,4 +1,4 @@
-package com.green.springfirst;
+package com.green.springfirst2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

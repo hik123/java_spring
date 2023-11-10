@@ -1,14 +1,14 @@
-package com.green.springfirst.board.model;
-
+package com.green.springfirst2.board.model;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-@Setter
 @Getter
+@Setter
 @ToString
-public class BoardInsDto {       // 제목 내용 작성자
+public class BoardUpdDto {
+    private int iboard;
     private String title;
     private String ctnts;
     private String writer;
